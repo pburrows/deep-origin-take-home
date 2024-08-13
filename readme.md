@@ -1,5 +1,13 @@
 # Deep Origin Take Home Task
 
+* [Architecture Design](./design//architecture.md)
+* [Proof of Concept](./poc/tasks-poc/README.md)
+
+
+---
+
+# Original Assignment
+
 ## Design a Distributed Task Scheduler
 
 Design a distributed task scheduler in which a client can register a task and the time it should be executed. The task needs to be picked up and executed within 10 seconds of its scheduled time of execution. The tasks can be of two types:

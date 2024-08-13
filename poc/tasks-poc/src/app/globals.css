@@ -31,3 +31,25 @@ body {
     text-wrap: balance;
   }
 }
+
+label {
+  @apply text-sm/6 font-medium text-white;
+}
+input[type=text], input[type=datetime-local], input[type=number], input[type=date] {
+  @apply mt-3 block w-full rounded-lg border-none bg-white/5 py-1.5 px-3 text-sm/6 text-white;
+  @apply focus:outline-none data-[focus]:outline-2 data-[focus]:-outline-offset-2 data-[focus]:outline-white/25;
+}
+
+input[type=checkbox] {
+  @apply size-4 mr-2 rounded-md bg-white/10 p-1 ring-1 ring-white/15 ring-inset data-[checked]:bg-white;
+}
+
+select {
+  @apply mt-3 block w-full appearance-none rounded-lg border-none bg-white/5 py-1.5 px-3 text-sm/6 text-white;
+  @apply focus:outline-none data-[focus]:outline-2 data-[focus]:-outline-offset-2 data-[focus]:outline-white/25;
+  @apply text-black;
+}
+
+button {
+  @apply rounded bg-sky-600 py-2 px-4 text-sm text-white data-[hover]:bg-sky-500 data-[active]:bg-sky-700;
+}
