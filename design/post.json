@@ -1,0 +1,16 @@
+{
+    "name": "Task Name",
+    "description": "Memorable description",
+    "startDate": "2024-08-12 11:24:53.00+0000",
+    "repeats": {
+        "frequency": "1",
+        "period": "week",
+        "on": "mmonday, tuesday",
+        "ends": "12"
+    },
+    "notify": {
+        "email": "someone@example.com",
+        "sms": "4075551212",
+        "push": true
+    }
+}
